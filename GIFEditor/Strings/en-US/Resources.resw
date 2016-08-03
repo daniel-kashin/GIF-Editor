@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="camsError" xml:space="preserve">
+    <value>Can`t get access nither to front nor back camera.</value>
+  </data>
+  <data name="capturing" xml:space="preserve">
+    <value>Capturing</value>
+  </data>
+  <data name="animation" xml:space="preserve">
+    <value>capturing mode: animation</value>
+  </data>
+  <data name="photo" xml:space="preserve">
+    <value>capturing mode: photo</value>
+  </data>
+  <data name="errorBack" xml:space="preserve">
+    <value>ERROR: can`t get acccess to the back camera</value>
+  </data>
+  <data name="errorFront" xml:space="preserve">
+    <value>ERROR: can`t get access to the front camera</value>
+  </data>
+  <data name="frames" xml:space="preserve">
+    <value>frames: </value>
+  </data>
+  <data name="initialization" xml:space="preserve">
+    <value>Initialization... .</value>
+  </data>
+  <data name="nothingtosave" xml:space="preserve">
+    <value>Nothing to save... .</value>
+  </data>
+  <data name="previewon" xml:space="preserve">
+    <value>preview: disabled</value>
+  </data>
+  <data name="previewoff" xml:space="preserve">
+    <value>preview: enabled</value>
+  </data>
+  <data name="somethingwent" xml:space="preserve">
+    <value>Something went wrong. NOTE: You can press "Value down" + "Turn off" to reset your phone.</value>
+  </data>
+  <data name="create" xml:space="preserve">
+    <value>Let`s create</value>
+  </data>
+  <data name="acceptBar.Label" xml:space="preserve">
+    <value>accept</value>
+  </data>
+  <data name="againBar.Label" xml:space="preserve">
+    <value>again</value>
+  </data>
+  <data name="bright.Text" xml:space="preserve">
+    <value>brightness</value>
+  </data>
+  <data name="cameraBar.Label" xml:space="preserve">
+    <value>capture</value>
+  </data>
+  <data name="contrast.Text" xml:space="preserve">
+    <value>contrast</value>
+  </data>
+  <data name="editing" xml:space="preserve">
+    <value>Edit .</value>
+  </data>
+  <data name="enablePreviewImageBar.Label" xml:space="preserve">
+    <value>preview: disabled</value>
+  </data>
+  <data name="imagesError" xml:space="preserve">
+    <value>You can`t upload more than 30 images.</value>
+  </data>
+  <data name="memoryError" xml:space="preserve">
+    <value>ERROR: Not enough memory (RAM) to continue. Restart the application.</value>
+  </data>
+  <data name="playButton.Label" xml:space="preserve">
+    <value>pause</value>
+  </data>
+  <data name="processing" xml:space="preserve">
+    <value>Processing</value>
+  </data>
+  <data name="defaultButton.Label" xml:space="preserve">
+    <value>default</value>
+  </data>
+  <data name="rendering" xml:space="preserve">
+    <value>Uploading</value>
+  </data>
+  <data name="saveButton.Label" xml:space="preserve">
+    <value>save</value>
+  </data>
+  <data name="saved" xml:space="preserve">
+    <value>Saved</value>
+  </data>
+  <data name="saving" xml:space="preserve">
+    <value>Saving</value>
+  </data>
+  <data name="settingsButton.Label" xml:space="preserve">
+    <value>edit</value>
+  </data>
+  <data name="speed.Text" xml:space="preserve">
+    <value>speed</value>
+  </data>
+  <data name="statusTextBlockEdit.Text" xml:space="preserve">
+    <value>Edit .</value>
+  </data>
+  <data name="statusTextBlockMainPage.Text" xml:space="preserve">
+    <value>Let`s create .</value>
+  </data>
+  <data name="cameraSourceButton.Content" xml:space="preserve">
+    <value>Camera capture</value>
+  </data>
+  <data name="gifSourceButton.Content" xml:space="preserve">
+    <value>Open GIF-file</value>
+  </data>
+  <data name="imagesSourceButton.Content" xml:space="preserve">
+    <value>Image  gallery</value>
+  </data>
+  <data name="noFilterButton.Content" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="info1.Text" xml:space="preserve">
+    <value>Publisher:</value>
+  </data>
+  <data name="info3.Text" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="info4.Text" xml:space="preserve">
+    <value>Create, edit and save GIF-files.</value>
+  </data>
+  <data name="info5.Text" xml:space="preserve">
+    <value>Support</value>
+  </data>
+  <data name="statusTextBlockInfo.Text" xml:space="preserve">
+    <value>Info .</value>
+  </data>
+</root>

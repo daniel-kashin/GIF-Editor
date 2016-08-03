@@ -1,0 +1,35 @@
+﻿<Page
+    x:Class="GIFEditor.Info"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GIFEditor"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Background="LightGray">
+
+    <Grid x:Name="grid">
+        <Grid.Background>
+            <ImageBrush Stretch="UniformToFill" ImageSource="Assets/info.png"/>
+        </Grid.Background>
+
+
+        <Rectangle Fill="#FF1F1F1F" HorizontalAlignment="Left" Height="60" Grid.Row="1"
+                   Stroke="Black" VerticalAlignment="Top" Width="400"/>
+        <TextBlock x:Uid="statusTextBlockInfo" x:Name="statusTextBlock" HorizontalAlignment="Center" Height="45"
+                   Grid.Row="1" TextWrapping="Wrap" Text="Info ." 
+                   TextAlignment="Right" VerticalAlignment="Top" Width="400"
+                   FontSize="33" Margin="0,15,0,0" />
+        <TextBlock x:Name="applicationName" FontSize="25" VerticalAlignment="Top"
+                   HorizontalAlignment="Left" Height="30" Grid.Row="1"
+                   TextWrapping="Wrap" Text=" GIF Editor" Width="400" Margin="0,33,0,0" Visibility="Visible" Foreground="#FF7C7C7C"/>
+        <TextBlock x:Uid="info1" x:Name="infoTextBlock_Copy" HorizontalAlignment="Center" Height="40" Margin="0,0,0,205" TextWrapping="Wrap" Text="Publisher:" VerticalAlignment="Bottom" Width="Auto" Foreground="Black" FontSize="26.667" FontWeight="Bold"/>
+        <TextBlock x:Uid="info5" x:Name="infoTextBlock_Copy1" HorizontalAlignment="Center" Height="40" Margin="0,0,0,35" TextWrapping="Wrap" Text="Support:" VerticalAlignment="Bottom" Width="Auto" Foreground="Black" FontSize="26.667" FontWeight="Bold"/>
+        <TextBlock x:Uid="info2" x:Name="infoTextBlock_Copy2" HorizontalAlignment="Center" Height="40" Margin="0,0,0,170" TextWrapping="Wrap" Text="ImageToolsLab" VerticalAlignment="Bottom" Width="Auto" Foreground="Black" FontSize="20"/>
+        <TextBlock x:Name="infoTextBlock_Copy3" HorizontalAlignment="Center" Height="40" Margin="0,0,0,0" TextWrapping="Wrap" Text="kashin.daniel@yandex.com" VerticalAlignment="Bottom" Width="Auto" Foreground="Black" FontSize="20"/>
+        <TextBlock x:Uid="info3" x:Name="infoTextBlock_Copy4" HorizontalAlignment="Center" Height="40" Margin="0,0,0,120" TextWrapping="Wrap" Text="Description:" VerticalAlignment="Bottom" Width="Auto" Foreground="Black" FontSize="26.667" FontWeight="Bold"/>
+        <TextBlock x:Uid="info4" x:Name="infoTextBlock_Copy5" HorizontalAlignment="Center" Height="40" Margin="0,0,0,85" TextWrapping="Wrap" Text="Create, edit and save GIF-files. " VerticalAlignment="Bottom" Width="Auto" Foreground="Black" FontSize="20"/>
+
+
+
+    </Grid>
+</Page>
